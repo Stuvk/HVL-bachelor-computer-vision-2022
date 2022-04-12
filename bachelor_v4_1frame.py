@@ -383,7 +383,7 @@ def SendData():
     
     
    
-#---------------------------------Calibrate Program--------------------------- V.1.2
+
 def Cal_Click():
     
     #Creat new window    
@@ -429,6 +429,7 @@ def Cal_Click():
         Cal_label.frame_num = 0
         Cal_label.grid(row=0, column=0)
         Vid_cap2 =cv2.VideoCapture(0)
+        
         
         #Checking if the number of pictures are enough or good
         Ant_pic_err_lab1 = Label(Top, text="")
@@ -723,9 +724,8 @@ if __name__ == "__main__":
  
     #-------------------------------------------------------
  
- 
- 
- 
+
+
     #-------------------------------------------------------
     #-----------------Commands------------------------------
     
